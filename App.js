@@ -13,6 +13,10 @@ function App() {
     const variable = useSelector(state => state.todo);
     const [inputData, setInputData] = useState("");
 
+    function add() {
+
+    }
+
     function foo() {
 
         const newDate = document.getElementById("date").value;
@@ -54,6 +58,7 @@ function App() {
                 <option value={"Personal"}>Personal</option>
                 <option value={"Company"}> Company </option>
                 <option value={"Shopping"}>Shopping</option>
+                <option value={"other"} id={"other"} onClick={add}>Other</option>
             </select><br/><br/>
 
             <button onClick={foo}>Click</button>
