@@ -1,0 +1,67 @@
+.card{
+    width: 1300px;
+    height: 160px;
+    margin-left: 100px;
+    color: white;
+
+}
+
+.label{
+    position: relative;
+    top: -2px;
+    font-family: cursive;
+    font-size: large;
+    color: white;
+}
+.addTask{
+    width: 1120px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+    background-color: #373939;
+
+    text-decoration-color: white;
+
+}
+.date{
+    width: 50px;
+    margin-left: 10px;
+    background-color: #373939;
+    color: white;
+}
+.dropdown{
+    margin-left: 10px;
+    height: 30px;
+    background-color: #373939;
+    color: white;
+}
+::placeholder{
+    font-family: cursive;
+    color: white;
+}
+.add{
+    border-radius: 30px;
+    font-size: large;
+    margin-left: 10px;
+    width: 60px;
+    background-color: #373939;
+    color: white;
+
+}
+.searchBar{
+    width: 200px;
+    border-radius: 20px;
+    background-color: #373939;
+    color: white;
+}
+.logOut{
+    margin-left: 1200px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #373939;
+    color: white;
+}
+.background{
+    background-image: url("back.jpg");
+    height: auto;
+}
